@@ -1,5 +1,7 @@
 name: Control Push
 on: push
+runs:
+  using: 'node20'
 jobs:
   qa:
     name: Check tests
